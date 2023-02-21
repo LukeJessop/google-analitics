@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            const gtag = () => dataLayer.push(arguments)
             gtag('js', new Date());
             gtag('config', 'G-NS2HBN0R2K', {
               page_path: window.location.pathname,
