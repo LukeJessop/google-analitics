@@ -10,13 +10,13 @@ export default function Home() {
     }
     gtag("js", new Date());
 
-    gtag("config", "G-NS2HBN0R2K");
+    gtag("config", "G-5396DQEK5G");
   };
   return (
     <>
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-NS2HBN0R2K"
+        src="https://www.googletagmanager.com/gtag/js?id=G-5396DQEK5G"
       ></script>
       <script>{gTagFunc}</script>
       <div className={styles.container}>
